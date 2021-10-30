@@ -1,14 +1,14 @@
+import { Button } from "@mui/material";
+import { Map } from "../map/Map";
+import { Toolbar } from "../toolbar/Toolbar";
+
 export const Home = () => {
   return (
     <div>
-      <header>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
+      <Toolbar />
+      <Button>Report Pothole</Button>
+      <Button>View Potholes</Button>
+      <Map />
     </div>
   );
 };
